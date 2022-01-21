@@ -448,9 +448,12 @@ export function handleSwap(event: SwapEvent): void {
 
   swap.save()
   token0DayData.save()
+  token0HourData.save()
   token1DayData.save()
+  token1HourData.save()
   uniswapDayData.save()
   poolDayData.save()
+  poolHourData.save()
   factory.save()
   pool.save()
   token0.save()
